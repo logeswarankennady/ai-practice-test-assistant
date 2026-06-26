@@ -9,7 +9,7 @@ import requests
 # Constants
 S3_BUCKET = "pt-dataset-bucket-logesh"  # Replace with your S3 bucket name
 S3_KEY = "pt-questions.json"
-API_URL = "https://dt7f8ql2sh.execute-api.us-east-1.amazonaws.com/PT_AI_Answer_Lambda_v2/ask"  # Replace with your AI endpoint if using
+API_URL = "https://dt7f8ql2sh.execute-api.us-east-1.amazonaws.com/PT_AI_Answer_Lambda_v2"  # Replace with your AI endpoint if using
 
 TOTAL_TIME = 1200  # 20 minutes in seconds
 NUM_QUESTIONS = 10
